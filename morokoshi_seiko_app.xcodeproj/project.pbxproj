@@ -14,6 +14,7 @@
 		29B5B8B228B4816700FD4088 /* morokoshi_seiko_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B5B8B128B4816700FD4088 /* morokoshi_seiko_appTests.swift */; };
 		29B5B8BC28B4816700FD4088 /* morokoshi_seiko_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B5B8BB28B4816700FD4088 /* morokoshi_seiko_appUITests.swift */; };
 		29B5B8BE28B4816700FD4088 /* morokoshi_seiko_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B5B8BD28B4816700FD4088 /* morokoshi_seiko_appUITestsLaunchTests.swift */; };
+		29B5B8CB28B481E100FD4088 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B5B8CA28B481E100FD4088 /* EventData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		29B5B8B728B4816700FD4088 /* morokoshi_seiko_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = morokoshi_seiko_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B5B8BB28B4816700FD4088 /* morokoshi_seiko_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morokoshi_seiko_appUITests.swift; sourceTree = "<group>"; };
 		29B5B8BD28B4816700FD4088 /* morokoshi_seiko_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morokoshi_seiko_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29B5B8CA28B481E100FD4088 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				29B5B8A028B4816400FD4088 /* morokoshi_seiko_appApp.swift */,
 				29B5B8A228B4816400FD4088 /* ContentView.swift */,
+				29B5B8CA28B481E100FD4088 /* EventData.swift */,
 				29B5B8A428B4816700FD4088 /* Assets.xcassets */,
 				29B5B8A628B4816700FD4088 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				29B5B8A328B4816400FD4088 /* ContentView.swift in Sources */,
 				29B5B8A128B4816400FD4088 /* morokoshi_seiko_appApp.swift in Sources */,
+				29B5B8CB28B481E100FD4088 /* EventData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
